@@ -1,0 +1,43 @@
+.about .container .row {
+  height: calc(100vh - 66px);
+  align-items: center;
+  justify-content: center;
+}
+.mytext {
+}
+.mytext h1 {
+  color: #3991f5;
+}
+.mytext p {
+  padding-top: 30px;
+  color: lightgray;
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.icons {
+}
+.icons h5 {
+  color: #3991f5;
+  font-weight: bold;
+}
+.icons p {
+  color: lightgray;
+  font-size: 14px;
+}
+.icons .icon {
+  display: flex;
+  align-items: center;
+}
+.icons .icon i {
+  padding: 30px;
+  color: white;
+  background-color: #90b2d8;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+@media (max-width: 992px) {
+  .mytext {
+    text-align: center;
+  }
+}
